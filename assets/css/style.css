@@ -1,0 +1,31 @@
+body {
+    background-image: url(../images/dark-grey-terrazzo.png);
+}
+
+#heading {
+    text-align: center;
+    color: gold;
+}
+
+#instructions {
+    color: gold;
+}
+
+#computerGuess, #userGuess, #results {
+    background-color: grey;
+    color: gold;
+    text-align: center;
+    font-size: 4.688em;
+    border-radius: 25px;
+}
+
+#results {
+    background-color: grey;
+}
+
+img {
+    margin: 15px 15px;
+    height: 200px;
+    width: 200px;
+}
+
