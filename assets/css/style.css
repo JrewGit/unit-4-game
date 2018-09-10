@@ -11,7 +11,7 @@ body {
     color: gold;
 }
 
-#computerGuess, #userGuess, #results {
+#computerGuess, #userGuess, #results, #message {
     background-color: grey;
     color: gold;
     text-align: center;
@@ -19,7 +19,7 @@ body {
     border-radius: 25px;
 }
 
-#results {
+#results, #message {
     background-color: grey;
 }
 
@@ -28,4 +28,8 @@ img {
     height: 200px;
     width: 200px;
 }
+
+/* #results {
+  height: 110px;
+} */
 
