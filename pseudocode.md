@@ -29,10 +29,8 @@
 
 TODO:
 
-Add symmetrical height to the results and message id;
+*Add symmetrical height to the results and message id;
 *Set onclick function to reset the game;
 *Set reset computerRandomNumber;
 *Set reset gemRandomNumber for each gem;
-
-
-
+*Fix loss result reset bug;

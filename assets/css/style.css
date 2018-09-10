@@ -23,13 +23,18 @@ body {
     background-color: grey;
 }
 
+#gems {
+    padding-left: 13%;
+}
+
 img {
     margin: 15px 15px;
     height: 200px;
     width: 200px;
 }
 
-/* #results {
-  height: 110px;
-} */
+#results, #message{
+  height: 113px;
+  padding: 6% 6%;
+};
 
