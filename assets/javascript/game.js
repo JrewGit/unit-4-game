@@ -34,6 +34,7 @@ function reset() {
     userRandomAmethyst = (Math.floor(Math.random() * 13) + 1);
     $("#message").html("");
     winner = false;
+    lossUpdated = false;
 }
 
 //Creates an onclick function to call the reset function

@@ -7,19 +7,19 @@
 
 *make userGuess counter;
 
-make win counter;
-  if userGuess is equal to computerRandomNumber win;
+*make win counter;
+  *if userGuess is equal to computerRandomNumber win;
     *win counter goes up by 1;
     *print winStatement;
-    reset computerRandomNumber;
-    reset gemRandomNumber for each gem;
+    *reset computerRandomNumber;
+    *reset gemRandomNumber for each gem;
 
-make loss counter;
-  if userGuess > computerRandomNumber;
+*make loss counter;
+  *if userGuess > computerRandomNumber;
     *loss counter goes up ONLY 1;
     *print lossStatement;
-    reset computerRandomNumber;
-    reset gemRandomNumber for each gem;
+    *reset computerRandomNumber;
+    *reset gemRandomNumber for each gem;
 
 *make 4 different gem pictures (Ruby, Sapphire, Emerald, Topaz);
   *have each gem hold a different random number:
@@ -30,8 +30,9 @@ make loss counter;
 TODO:
 
 Add symmetrical height to the results and message id;
-Set onclick function to reset the game;
-Set reset computerRandomNumber;
-Set reset gemRandomNumber for each gem;
+*Set onclick function to reset the game;
+*Set reset computerRandomNumber;
+*Set reset gemRandomNumber for each gem;
+
 
 
